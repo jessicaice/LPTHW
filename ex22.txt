@@ -1,0 +1,52 @@
+#Exercise 2: What do you know so far?
+#From Learn Python the Hard Way
+#Created by Jessica Ice
+#Created on May 18, 2016
+#Last edited on May 18, 2016
+
+Write down all the words and code I have learned so far:
+
+print -> displays whatever you tell it to display
+# -> creates a comment
++ -> plus
+- -> minus
+/ -> slash
+* -> percent
+< -> less than
+> -> greater than
+<= -> less than or equal
+>= -> greater than or equal
+% -> used to put a variable in a string 
+%r -> for the raw input from a variable
+%d -> for a digit
+%s -> for a string
+"x" * 10 -> prints 10 x's
+\n -> to start a new line
+"x" -> creates a string that can be printed
+""" -> creates a string with multiple lines
+\t -> tab
+\\ -> if you want to print a slash
+raw_input() -> allows an individual to input information into the code
+from -> tells where to import a library
+import -> says to import some library
+(from sys import argv)
+(from os.path import exists)
+argv -> a library where you can input variables in the command line
+txt.read() -> reads a file
+open() -> opens a file
+open(x, 'w') -> opens file x in write mode
+open(x, 'a') -> opens file x in append mode
+open(x, 'r') -> opens file x is read mode
+close() -> closes a file
+readline() -> reads a line from a file
+truncate() -> empties the file
+write('stuff') -> writes things into the file
+def x(y, z): -> defines a function x with variables y and z
+	stuff -> defines the stuff the function does
+seek() -> finds a specific byte in the file
++= -> recreates the variable with an addition
+	
+
+
+
+variables
