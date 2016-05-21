@@ -29,7 +29,7 @@ def secret_formula(started):
   return jelly_beans, jars, crates
   
 start_point = 10000
-beans, jars, creates = secret_formula(start_point) 
+beans, jars, crates = secret_formula(start_point) 
 
 print "With a starting point of: %d crates." (beans, jars, crates)
 
