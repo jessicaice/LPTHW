@@ -7,7 +7,7 @@
 print "Let's practice everything."
 print 'You\'d need to know \'but escapes with \\ that do \n newlines and \t tabs.'
 
-poem = '''
+poem = """
 \t Thelovely world
 with logic so firmly planted
 cannot discern \n the needs of love
