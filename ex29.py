@@ -45,7 +45,8 @@ if name == "Jessica":
 if name != "Jessica":
 	print "Okay how many pets do you have?"
 	
-pets = raw_input()
+pets = int(raw_input())
+
 
 if pets == 0 and name != "Jessica":
 	print "Wow, I feel so sorry for you. You have a sad life."
@@ -53,8 +54,8 @@ if pets == 0 and name != "Jessica":
 if pets == 0 and name == "Jessica":
 	print "That's too bad, but at least you still have a cool name."
 	
-if pets > 1 and name != "Jessica":
+if pets > 0 and name != "Jessica":
 	print "Ohhh.. how fun! Lucky you!"
 	
-if pets > 1 and name == "Jessica":
+if pets > 0 and name == "Jessica":
 	print "I have to stop talking to you because I am too jealous of your life."
