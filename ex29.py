@@ -19,7 +19,8 @@ if people < dogs:
 	
 if people > dogs:
 	print "The world is dry!"
-	
+
+#This is so that you will have equal number of dogs and humans	
 dogs += 5
 
 if people >= dogs:
@@ -31,3 +32,29 @@ if people <= dogs:
 if people == dogs:
 	print "People are dogs."
 	
+	
+#This is a new game for me to write
+
+print "What is your name?"
+name = raw_input()
+
+if name == "Jessica":
+	print "Well don't you have the nicest name in the world!"
+	print "How many pets do you have?"
+	
+if name != "Jessica":
+	print "Okay how many pets do you have?"
+	
+pets = raw_input()
+
+if pets == 0 and name != "Jessica":
+	print "Wow, I feel so sorry for you. You have a sad life."
+	
+if pets == 0 and name == "Jessica":
+	print "That's too bad, but at least you still have a cool name."
+	
+if pets > 0 and name != "Jessica":
+	print "Ohhh.. how fun! Lucky you!"
+	
+if pets > 0 and name == "Jessica":
+	print "I have to stop talking to you because I am too jealous of your life."
