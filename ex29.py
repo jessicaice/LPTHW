@@ -53,8 +53,8 @@ if pets == 0 and name != "Jessica":
 if pets == 0 and name == "Jessica":
 	print "That's too bad, but at least you still have a cool name."
 	
-if pets > 0 and name != "Jessica":
+if pets > 1 and name != "Jessica":
 	print "Ohhh.. how fun! Lucky you!"
 	
-if pets > 0 and name == "Jessica":
+if pets > 1 and name == "Jessica":
 	print "I have to stop talking to you because I am too jealous of your life."
