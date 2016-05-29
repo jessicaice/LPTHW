@@ -27,7 +27,7 @@ if door == "1":
 		print "The bear eats your face off. Good job!"
 	elif bear == "2":
 		print "The bear eats you legs off. Good job!"
-	else"
+	else:
 		print "Well, doing %s is probably better. Bear runs away!" % bear
 	
 elif door == "2":
@@ -38,8 +38,8 @@ elif door == "2":
 	
 	insanity = raw_input(' or '.join(door2opt) + '? ')
 
-	if insanity == door2opt(1) or insanity == door2opt(2)
-		print "Your body survives powered by a mind of jello. \
+	if insanity == 'Blueberries' or insanity == 'Yellow jacket clothespins':
+		print "Your body survives powered by a mind of jello.\
 		Good job!"
 		
 	else:
