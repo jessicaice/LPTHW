@@ -26,6 +26,7 @@ for i in change:
 #we can also build lists, first start with an empty one
 
 elements = []
+#testing if you can skip the for loop to append things into a list
 test = range(0,6)
 # then us the range function to do 0 to 5 counts
 
