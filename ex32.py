@@ -26,7 +26,7 @@ for i in change:
 #we can also build lists, first start with an empty one
 
 elements = []
-
+test = range(0,6)
 # then us the range function to do 0 to 5 counts
 
 for i in range(0, 6):
@@ -37,3 +37,5 @@ for i in range(0, 6):
 for i in elements:
 	print "Element was: %d" % i
 	
+for i in test:
+	print i
