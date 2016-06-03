@@ -76,8 +76,31 @@ def circus()
 		print "You should have picked one of the numbers. Try again"
 		circus()
 
+def computerscience():
+	print "You can actually get a real job. Congratulations!"
+	print "Where do you work?"
+
 def school():
 	print "What major will you pick?"
+	majorops = ["1. Politics", "2. Computer Science", "3. Underwater Basket Weaving"]
+	print '\n'.join(majorops), '? '
+	majorchoice = raw_input('> ')
+	
+	if majorchoice == "1":
+		print "You move to D.C. and go to grad school at Georgetown."
+		print "You are recruited to work for the state department. \n You end up writing, \\\
+		a bunch of emails to Hillary Clinton."
+		dead("You spend the rest of your life in federal prison.")
+	elif majorchoice == "2":
+		computerscience()
+	elif majorchoice == "3":
+		print "You turn out to be a Youtube sensation."
+		print "Unfortunately you didn't take your advanced scuba class as seriously \\\
+		as you should have!"
+		dead("You drown.")
+	else:
+		print "You should have picked one of the numbers. Try again!"
+		school()
 	
 def snowboard():
 	print "You are going to make a lot of money."
@@ -97,7 +120,7 @@ def europe():
 	elif europechoice == "3":
 		snowboard()
 	else:
-		print "You should have picked one of the numbers. Try again"
+		print "You should have picked one of the numbers. Try again!"
 		europe()
 
 def born():
